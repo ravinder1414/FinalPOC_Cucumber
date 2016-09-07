@@ -1,0 +1,1 @@
+https://github.com/OlufemiAdeOlusile/Testdiary/blob/master/CucumberTestNG/testng.xml

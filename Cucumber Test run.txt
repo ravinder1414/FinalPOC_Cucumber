@@ -1,0 +1,57 @@
+command only works with this is
+
+mvn clean package
+
+
+other commands are but not working
+
+
+mvn clean verify -Dcucumber.options="--tags @Smoke"
+
+
+we can also create new tag and pass these tags on RunCukeTest.java
+
+
+http://www.softwaretestinghelp.com/cucumber-bdd-tool-selenium-tutorial-30/
+
+
+
+How to wip the test
+
+
+mvn verify -Dcucumber.options="--tags ~@wip"
+
+
+
+mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=chrome       Run in chrome driver
+
+
+mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=ie  Run in Ie browser
+
+
+mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=firefox   Run in firefox browser
+
+
+mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=js   Run in phantomjas browser
+
+orion scripts not working in phantomjas but all other are working such as nature scripts
+
+
+In phantomjas authentication pop up not able to consider
+
+
+
+
+mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=chrome -Denv=orion1dev   orion1 dev scripts to run the test
+
+mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=chrome -Denv=orion1test    orion1 test scripts to run the test
+
+mvn clean verify -Dcucumber.options="--tags @Smoke" -Dbrowser=chrome -Denv=orion1stage    orion1 staging scripts to run the test
+
+
+
+
+how to run testng test cases
+
+
+mvn clean install -DEnv=Test  first go to that repository and after that run that particular test cases 

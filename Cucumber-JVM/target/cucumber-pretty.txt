@@ -1,0 +1,30 @@
+Feature: Google Search and Gmail user sign-in
+
+  @Smoke
+  Scenario: Text Search through Google Search     [90m# features/Google.feature:4[0m
+    [32mGiven [0m[32mI am in google home page[0m                [90m# GoogleStepDefination.i_am_in_google_home_page()[0m
+    [32mWhen [0m[32mI search text in google search box[0m       [90m# GoogleStepDefination.i_search_text_in_google_search_box()[0m
+    [32mThen [0m[32mI should able to see the searched result[0m [90m# GoogleStepDefination.i_should_able_to_see_the_searched_result()[0m
+
+  @Smoke
+  Scenario: Gmail sign in using correct userdetails                [90m# features/Google.feature:10[0m
+    [32mGiven [0m[32mI am in google home page[0m                                 [90m# GoogleStepDefination.i_am_in_google_home_page()[0m
+    [32mWhen [0m[32mI click on Gmail link[0m                                     [90m# GoogleStepDefination.i_click_on_Gmail_link()[0m
+    [32mAnd [0m[32mI have enter correct username and password in sign-in page[0m [90m# GoogleStepDefination.i_have_enter_correct_username_and_password_in_sign_in_page()[0m
+    [32mThen [0m[32mI should be able to logged-in successfully[0m                [90m# GoogleStepDefination.i_should_be_able_to_logged_in_successfully()[0m
+
+  @Smoke
+  Scenario: Gmail sign in using Incorrect userdetails            [90m# features/Google.feature:16[0m
+    [32mGiven [0m[32mI am in google home page[0m                               [90m# GoogleStepDefination.i_am_in_google_home_page()[0m
+    [32mWhen [0m[32mI click on Gmail link[0m                                   [90m# GoogleStepDefination.i_click_on_Gmail_link()[0m
+    [32mAnd [0m[32mI have enter incorrect username and password[0m             [90m# GoogleStepDefination.i_have_enter_incorrect_username_and_password()[0m
+    [31mThen [0m[31mI should be able to see error message and not logged-in[0m [90m# GoogleStepDefination.i_should_be_able_to_see_error_message_and_not_logged_in()[0m
+      [31mjava.lang.AssertionError: expected [The email and password you entered don't] but found [The email and password you entered don't match.]
+      	at org.testng.Assert.fail(Assert.java:94)
+      	at org.testng.Assert.failNotEquals(Assert.java:494)
+      	at org.testng.Assert.assertEquals(Assert.java:123)
+      	at org.testng.Assert.assertEquals(Assert.java:176)
+      	at org.testng.Assert.assertEquals(Assert.java:186)
+      	at stepsDefinations.GoogleStepDefination.i_should_be_able_to_see_error_message_and_not_logged_in(GoogleStepDefination.java:115)
+      	at ✽.Then I should be able to see error message and not logged-in(features/Google.feature:20)
+      [0m

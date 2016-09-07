@@ -1,0 +1,15 @@
+common\CommonGenericFunctions.class
+pageObjects\ConfirmUserPageObject.class
+common\BrowserManagement.class
+common\ScreenShotOnTestFailure.class
+pageObjects\AdmissionsPage.class
+pageObjects\NewLeadCreationPageObjects.class
+common\ReportExtn.class
+pageObjects\NatureLogin.class
+common\UserExtension.class
+pageObjects\GooglePageObject.class
+common\ExcelReader.class
+stepsDefinations\GoogleStepDefination.class
+pageObjects\NewUserPageObject.class
+common\DriverSelector.class
+common\Url.class

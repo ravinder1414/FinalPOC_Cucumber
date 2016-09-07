@@ -1,0 +1,140 @@
+[
+  {
+    "source": "^I click on Gmail link$",
+    "steps": [
+      {
+        "name": "I click on Gmail link",
+        "aggregatedDurations": {
+          "median": 11.066911909,
+          "average": 11.066911909
+        },
+        "durations": [
+          {
+            "duration": 11.169514717,
+            "location": "features/Google.feature:12"
+          },
+          {
+            "duration": 10.964309102,
+            "location": "features/Google.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should able to see the searched result$",
+    "steps": [
+      {
+        "name": "I should able to see the searched result",
+        "aggregatedDurations": {
+          "median": 0.070165129,
+          "average": 0.070165129
+        },
+        "durations": [
+          {
+            "duration": 0.070165129,
+            "location": "features/Google.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I search text in google search box$",
+    "steps": [
+      {
+        "name": "I search text in google search box",
+        "aggregatedDurations": {
+          "median": 0.090393591,
+          "average": 0.090393591
+        },
+        "durations": [
+          {
+            "duration": 0.090393591,
+            "location": "features/Google.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have enter incorrect username and password$",
+    "steps": [
+      {
+        "name": "I have enter incorrect username and password",
+        "aggregatedDurations": {
+          "median": 10.960105888,
+          "average": 10.960105888
+        },
+        "durations": [
+          {
+            "duration": 10.960105888,
+            "location": "features/Google.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I should be able to logged-in successfully$",
+    "steps": [
+      {
+        "name": "I should be able to logged-in successfully",
+        "aggregatedDurations": {
+          "median": 0.000035093,
+          "average": 0.000035093
+        },
+        "durations": [
+          {
+            "duration": 0.000035093,
+            "location": "features/Google.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I have enter correct username and password in sign-in page$",
+    "steps": [
+      {
+        "name": "I have enter correct username and password in sign-in page",
+        "aggregatedDurations": {
+          "median": 11.057465108,
+          "average": 11.057465108
+        },
+        "durations": [
+          {
+            "duration": 11.057465108,
+            "location": "features/Google.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am in google home page$",
+    "steps": [
+      {
+        "name": "I am in google home page",
+        "aggregatedDurations": {
+          "median": 2.947295953,
+          "average": 2.860502152
+        },
+        "durations": [
+          {
+            "duration": 2.613267932,
+            "location": "features/Google.feature:5"
+          },
+          {
+            "duration": 2.947295953,
+            "location": "features/Google.feature:11"
+          },
+          {
+            "duration": 3.020942572,
+            "location": "features/Google.feature:17"
+          }
+        ]
+      }
+    ]
+  }
+]
